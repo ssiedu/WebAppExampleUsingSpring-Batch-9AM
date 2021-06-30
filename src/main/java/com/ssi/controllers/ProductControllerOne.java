@@ -1,4 +1,4 @@
-package com.ssi;
+package com.ssi.controllers;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -10,8 +10,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class ProductController {
-	
+public class ProductControllerOne {
+	/*
 	@RequestMapping("/process")
 	public void processRequest(HttpServletRequest request, HttpServletResponse response) {
 		//when you will submit the form, url will get appended by /process and for handling this method will get called
@@ -56,5 +56,5 @@ public class ProductController {
 		return "details.jsp";	//here details.jsp is name of view
 		
 	}
-	
+	*/
 }

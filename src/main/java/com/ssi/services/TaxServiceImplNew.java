@@ -4,7 +4,7 @@ import org.springframework.stereotype.Service;
 
 import com.ssi.models.TaxModel;
 
-@Service
+//@Service
 public class TaxServiceImplNew implements TaxService {
 	public void computeTax(TaxModel model) {
 		System.out.println("New Tax Service...!");

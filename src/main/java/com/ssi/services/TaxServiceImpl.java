@@ -1,8 +1,10 @@
 package com.ssi.services;
 
+import org.springframework.stereotype.Service;
+
 import com.ssi.models.TaxModel;
 
-//@Service
+@Service
 public class TaxServiceImpl implements TaxService {
 	public void computeTax(TaxModel model) {
 		System.out.println("Old Tax Service...!");
